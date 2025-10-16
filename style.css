@@ -1,5 +1,12 @@
-<style>
+body.blak-theme {
+    background-color:Black; 
+    color: limegreen;}
 
-p {color:black; background:white; }
+body.crmsn-theme {
+    background-color: crimson;
+    color: lightblue;}
 
-</style>
+body.prpl-theme {
+    background-color: blueviolet;
+    color: white;}
+
