@@ -1,12 +1,19 @@
 body.blak-theme {
     background-color:Black; 
-    color: limegreen;}
+    color: limegreen;
+    text-align: end;
+    font-family: 'Times New Roman', Times, serif;}
 
 body.crmsn-theme {
     background-color: crimson;
-    color: lightblue;}
+    color: lightblue;
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;}
 
 body.prpl-theme {
     background-color: blueviolet;
-    color: white;}
+    color: white;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif}
+
 
