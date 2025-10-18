@@ -16,12 +16,17 @@ body.prpl-theme {
     text-align: left;
     font-family:Arial, Helvetica, sans-serif}
 
+
 body.blu-theme {
-    
-}
+    background-color:aqua ;
+    }
 
 
-body.
+body.grn-theme {
+    background-color: chartreuse;
+    }
 
 
-body.
+body.hzl-theme {
+    background-color: goldenrod;
+    }
