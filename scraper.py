@@ -21,7 +21,8 @@ __        __   _                          _
     # Extract all links
     for link in soup.find_all('a'):
         print(link.get('href'))
-    print(soup.div.text)
+    print(soup.find('div', class_='editorarea').text)
+
 
 if __name__ == "__main__":
     main()
