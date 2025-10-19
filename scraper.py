@@ -23,6 +23,15 @@ __        __   _                          _
         print(link.get('href'))
     print(soup.find('div', class_='editorarea').text)
 
+    url = "https://catalog.louisiana.edu/content.php?catoid=21&navoid=7555"
+    response = requests.get(url, headers=headers).text
+    # response = requests.get(url)
+    soup = BeautifulSoup(response, 'html.parser')
+
+    # Extract all links
+    for link in soup.find_all('a'):
+        print(link.get('href'))
+    print(soup.find_all('p'))
 
 if __name__ == "__main__":
     main()
