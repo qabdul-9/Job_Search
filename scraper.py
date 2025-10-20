@@ -56,6 +56,7 @@ __        __   _                          _
         print(f"Location: {location}")
         print(f"Date Posted: {date_posted}\n")
 
+
     else:
         print("Failed to retrieve the webpage, status code:", response.status_code)
 
@@ -64,6 +65,8 @@ __        __   _                          _
         writer = csv.writer(file)
         writer.writerow(['Paragraph'])
 
+        for p in paragraphs:
+            writer.writerow([p.get_text(strip=True)])
 
 
 if __name__ == "__main__":
